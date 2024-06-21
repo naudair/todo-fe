@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+  color: white;
+}
+button {
+  border: 1px solid rgb(173, 173, 173);
+}
+.btn {
+  border-radius: 0.75rem;
+  width: 10vw;
+  margin-left: 2vw;
+  /* color: rgb(255, 170, 0);
+  border: 1px solid rgb(255, 170, 0); */
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+.btn:active {
+  background-color: rgb(255, 170, 0);
+  color: black;
+  border: none;
+}
+.container {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.todo {
+  color: rgb(255, 170, 0);
+  font-weight: 600;
+  font-size: 40px;
+  padding: 3vh 10vw;
+}
+.header {
+  border-radius: 8px 8px 0 0;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.num {
+  padding-left: 2vw;
+  /* text-align: center; */
+}
+.title {
+  width: 13vw;
+  text-align: center;
+}
+.status {
+  width: 7vw;
+  text-align: center;
+}
+.date {
+  width: 8vw;
+  text-align: center;
+}
+.actions {
+  width: 17vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.list {
+  border-bottom: 1px solid rgb(173, 173, 173);
+  display: flex;
+  justify-content: space-around;
+  height: 5vh;
+  align-items: center;
+}

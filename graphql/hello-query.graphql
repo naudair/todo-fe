@@ -1,0 +1,27 @@
+mutation CreateTodo($item: ListTypesInput) {
+  createTodo(item: $item) {
+    _id
+    title
+    status
+  }
+}
+mutation EditTodo($editTodoId: ID!, $item: ListTypesInput) {
+  editTodo(id: $editTodoId, item: $item) {
+    _id
+    title
+    status
+  }
+}
+mutation DeleteTodo($deleteTodoId: ID!) {
+  deleteTodo(id: $deleteTodoId) {
+    title
+  }
+}
+
+query GetTodos {
+  getTodos {
+    _id
+    title
+    status
+  }
+}
